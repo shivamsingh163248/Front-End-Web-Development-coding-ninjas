@@ -15,7 +15,9 @@ p{
 .colors{
    
     background-image: url("123.jpeg");
-    height: auto;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    height: 600px;
     width: auto;
   
 }
@@ -23,6 +25,28 @@ p{
     background-color: rgba(239, 102, 154,0.5);
     height: 200px;
     width: 400px;
-    border-radius: 5%;
+    border-radius: 10px;
     margin-left: 300px;
+    position: absolute;
+    border: 2px;
+    border-color: brown;
+    border-width: 2px;
+    border-style: solid;
+}
+.colors1{
+   height: 100vh;
+   background-color:aqua ;
+
+}
+.colors2{
+    height: 100vh;
+    background-color:rgb(175, 150, 49) ;
+    position: absolute;
+    
+    
+
+}
+#sub-Child{
+    border-left: 2px solid red;
+    margin-left: 20px;
 }
