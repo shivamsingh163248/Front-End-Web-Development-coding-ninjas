@@ -12,3 +12,17 @@ p{
 .red-color{
     color: orange;
 }
+.colors{
+   
+    background-image: url("123.jpeg");
+    height: auto;
+    width: auto;
+  
+}
+.check{
+    background-color: rgba(239, 102, 154,0.5);
+    height: 200px;
+    width: 400px;
+    border-radius: 5%;
+    margin-left: 300px;
+}
