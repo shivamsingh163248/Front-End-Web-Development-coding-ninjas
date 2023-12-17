@@ -1,0 +1,13 @@
+body{
+    margin: 0px;
+}
+
+#body-header{
+    height: 64vh;
+    background-image: url('../images/banner.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    opacity: 0.9;
+}
