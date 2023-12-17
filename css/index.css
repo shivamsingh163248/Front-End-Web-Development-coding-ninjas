@@ -11,3 +11,25 @@ body{
     background-attachment: scroll;
     opacity: 0.9;
 }
+#navgation{
+ 
+    box-sizing: content-box;
+    background-color: rgb(98, 96, 96);
+    height: 30px ; 
+    position: sticky;
+    padding: 1%;
+    box-sizing: content-box;
+    opacity: 0.5;
+    
+}
+button{
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-color: beige;
+    background-color: transparent;
+    font-size: 15px;
+    border-radius: 20px;
+    background-color: black;
+      
+}
