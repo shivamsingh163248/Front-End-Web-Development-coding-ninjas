@@ -20,8 +20,8 @@ h1 {
     border: 1px solid black;
     display: flex;
     flex-direction: row;
-    
-}
+   
+    }
 
 #box div {
     border-radius: 50%;
@@ -41,6 +41,7 @@ h1 {
     width: 40px;
     background-color: #df8eff;
     flex:1;
+      
     
 }
 
