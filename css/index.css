@@ -20,16 +20,60 @@ body{
     padding: 1%;
     box-sizing: content-box;
     opacity: 0.5;
+    text-align: center;
     
 }
 button{
     padding: 10px;
     color: rgb(255, 255, 255);
-    border-width: 1px;
-    border-color: beige;
+    border-width: 0px;
+    
     background-color: transparent;
-    font-size: 15px;
-    border-radius: 20px;
-    background-color: black;
+    font-size:  20px;
+    
+    text-shadow: 2px 2px 4px #000000;
+    transition:  color 0.8s, border-bottom 0.8s ;
+   
+    
       
+}
+button:hover{
+    border-bottom: 1px solid white;
+    color: brown;
+}
+#container{
+   /* height: 75vh; */
+    width: 75vh;
+    /* if i ma doing auto then the flex -work auto prefect  */
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+
+}
+#container div{
+    height: 200px;
+    width: 200px;
+
+}
+#child-1{
+    background-color: yellow;
+
+}
+#child-2{
+    background-color: rgb(155, 155, 134);
+
+}
+#child-3{
+    background-color: rgb(19, 195, 101);
+
+}
+#child-4{
+    background-color: rgb(221, 129, 24);
+
+}
+#child-5{
+    background-color: rgb(94, 76, 56);
+
 }
