@@ -42,14 +42,14 @@ button:hover{
     color: brown;
 }
 #container{
-   /* height: 75vh; */
+   height: auto;
     width: 75vh;
     /* if i ma doing auto then the flex -work auto prefect  */
     background-color: beige;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-
+    /* learning the flex shrink */
 
 }
 #container div{
