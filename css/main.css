@@ -1,9 +1,9 @@
 body {
     font-family: monospace;
-    background-color: #e2fffd;
+    
 }
 
-h1 {
+ #ged h1 {
     text-transform: uppercase;
     color: white;
     background-color: darkslategrey;
@@ -66,7 +66,7 @@ h1 {
     margin: 100px auto;
    
     box-sizing: border-box;
-    background-image: linear-gradient(red , green);
+  background-color: antiquewhite;
 
 }
 

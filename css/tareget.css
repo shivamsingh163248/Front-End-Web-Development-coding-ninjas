@@ -1,15 +1,19 @@
 #learn_active{
-    height: 400px;
-    background-color: bisque;
+    height: 600px;
+  
 }
 #learn_active h1{
     text-align: center;
-    color: chocolate ; 
+    color: rgb(235, 231, 228) ; 
 }
 #learn_active a :active{
     color: red;
     background-color: green;
 }
-#learn_active p :active{
+ p :active{
     background-color: yellow;
+}
+section:target{
+    background-color: chocolate;
+    
 }
