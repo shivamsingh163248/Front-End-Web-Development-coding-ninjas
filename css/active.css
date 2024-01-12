@@ -1,3 +1,29 @@
 #learn_active a:visited{
     color: green;
 }
+
+#checkbox{
+    position: relative;
+    height: 0;
+    width: 0;
+   overflow: hidden;
+    top: 0;
+    left: 0;
+    transition: all 2s ease-in-out;
+   
+
+
+}
+#checkbox:target{
+    height: 30%;
+    width: 30%;
+   top: 20%;
+   left: 25%;
+ background-color: brown;
+
+}
+.targetlearning{
+    height: 400px;
+    width: 100%;
+    background-color: yellowgreen;
+}

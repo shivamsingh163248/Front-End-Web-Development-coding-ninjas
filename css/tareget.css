@@ -13,7 +13,4 @@
  p :active{
     background-color: yellow;
 }
-section:target{
-    background-color: chocolate;
-    
-}
+
