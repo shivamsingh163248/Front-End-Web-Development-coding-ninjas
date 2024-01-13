@@ -1,0 +1,25 @@
+#learnafterBefore{
+    height: 600px;
+    background-color: rgb(209, 123, 18);
+}
+
+#frist::first-letter{
+    font-size: 100px;
+    font-weight: 100;
+    font-style: italic;
+    text-transform: capitalize;
+}
+p::before{
+    content: 'before';
+    text-transform: capitalize;
+}
+p::after{
+    content: '';
+    background-image: url(../images/pg.png);
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    background-size: contain;
+
+    text-transform: capitalize;
+}
