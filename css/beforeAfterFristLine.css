@@ -55,6 +55,8 @@ li::before{
      width: 75%;
     height: 75%;
     margin-left: 10%;
+    position: relative;
+    
 
 }
 
@@ -66,5 +68,30 @@ li::before{
     width: 40%;
     top:5% ; 
 }
+#timeline-box:nth-child(2n){
+    left: 53%;
+}
+#timeline-diveder{
+
+    height: 75%;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    border: 3px dashed red;
+    width: 0;
+    
+
+}
+
+#timeline-icon{
+transform: rotate(90deg);
+   position: sticky ;
+ top: 25%;
+ font-size: 40px;
+   
+  
+}
+
+
 
 
