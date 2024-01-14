@@ -86,10 +86,35 @@ li::before{
 #timeline-icon{
 transform: rotate(90deg);
    position: sticky ;
- top: 25%;
+ top: 1%;
  font-size: 40px;
+ z-index: 2;
    
   
+}
+#timeline-box:nth-child(2n)::after{
+    content: '';
+    border-radius: 50%;
+    height: 1rem;
+    width: 1rem;
+    background-color: rgb(18, 128, 48);
+    position: absolute;
+    top: 30%;
+    left: -9%;
+    z-index: 1;
+    
+}
+#timeline-box:nth-child(2n+1)::after{
+    content: '';
+    border-radius: 50%;
+    height: 1rem;
+    width: 1rem;
+    background-color: rgb(18, 128, 48);
+    position: absolute;
+    top: 30%;
+    right: -15%;
+    z-index: 1;
+    
 }
 
 
