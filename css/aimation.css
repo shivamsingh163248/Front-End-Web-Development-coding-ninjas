@@ -29,7 +29,7 @@
 #section1{
     height: 600px;
     width: 100%;
-    background-color: rgb(241, 219, 120);
+    background-color: rgb(241, 170, 120);
 }
 
 
@@ -48,15 +48,37 @@
 }
 
 @keyframes changes {
-
+/* 
     from{
        
-        width: 100px; 
+        height: 10px;
+    
      }
      to{
         
-         width: 400px; 
-     }
+        height: 100px;
+        
+     } */
+
+     10% {
+        transform: scaleY(0.3); /* start by scaling to 30% */
+      }
+    
+      30% {
+        transform: scaleY(1); /* scale up to 100% */
+      }
+    
+      60% {
+        transform: scaleY(0.5); /* scale down to 50% */
+      }
+    
+      80% {
+        transform: scaleY(0.75); /* scale up to 75% */
+      }
+    
+      100% {
+        transform: scaleY(0.6); /* scale down to 60% */
+      }
     
 } 
 
@@ -64,13 +86,34 @@
 #sqr{
     height: 100px;
     width: 10px;
-    background-color: brown;
-    position: absolute;
-    animation:  changes 1s ease-in-out 1s infinite alternate ;
+    background-color: rgb(225, 239, 93);
    
-    top: 50%;
-    left: 50%;
+    animation:  changes 1s ease-in-out 1s infinite alternate;
     position: relative;
+    transform-origin: bottom;
+    display: flex;
+    top: 30%;
+    left: 30%;
+    
+    
+}
+#music{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 60px;
+}
+#sqr:nth-child(1){
+    animation-delay: -2.2s;
+    background-color: rgb(248, 233, 172);
+}
+#sqr:nth-child(2){
+    animation-delay: 2.2s;
+    background-color: rgb(180, 163, 96);
+}
+#sqr:nth-child(3){
+    animation-delay: -1.2s;
+    background-color: rgb(131, 106, 7);
 }
 
 
