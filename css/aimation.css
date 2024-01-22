@@ -26,3 +26,62 @@
 
 }
 
+#section1{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(241, 219, 120);
+}
+
+
+#square{
+    height: 100px;
+    width: 100px;
+    margin-left: 10%;
+    background-color: chartreuse;
+    margin-top: 10%;
+    position: absolute;
+    transform: rotate(20deg); 
+    transition: 1s ease-in-out 0.5s;
+    
+
+
+}
+
+@keyframes changes {
+
+    from{
+       
+        width: 100px; 
+     }
+     to{
+        
+         width: 400px; 
+     }
+    
+} 
+
+
+#sqr{
+    height: 100px;
+    width: 10px;
+    background-color: brown;
+    position: absolute;
+    animation:  changes 1s ease-in-out 1s infinite alternate ;
+   
+    top: 50%;
+    left: 50%;
+    position: relative;
+}
+
+
+   
+
+
+
+
+    
+
+
+
+
+
