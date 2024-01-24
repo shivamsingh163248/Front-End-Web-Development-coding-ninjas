@@ -116,6 +116,45 @@
     background-color: rgb(131, 106, 7);
 }
 
+#text{
+    height: 100px;
+    width: 10px;
+    background-color: rgb(225, 239, 93);
+   
+    animation:  change 1s ease-in-out 1s infinite alternate;
+    position: relative;
+    transform-origin: bottom;
+    display: flex;
+    top: 30%;
+    left: 30%;
+    
+    
+}
+@keyframes change {
+   
+    from{
+        opacity: 1;
+    }
+
+    25%{
+        opacity: 0.8;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    75%{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+
+        
+    } 
+
+
+
+
 
    
 
