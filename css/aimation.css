@@ -59,6 +59,7 @@
         height: 100px;
         
      } */
+     
 
      10% {
         transform: scaleY(0.3); /* start by scaling to 30% */
@@ -150,20 +151,37 @@
     }
 
         
-    } 
+} 
 
 
-
-
-
+.cubests{
+    background-color: antiquewhite;
+    height: 600px;
+     width: auto;
    
+}
 
+.cube{
+    height: 200px;
+    width: 200px;
+    position: relative;
+   
+}
+.face{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    transition: all 1s;
 
-
-
-    
-
-
-
-
-
+}
+.one{
+    background-color: chartreuse;
+}
+.one:hover{
+    transform: rotateX(40deg)   rotateY(40deg) ;
+   
+}
