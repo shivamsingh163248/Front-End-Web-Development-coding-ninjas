@@ -165,7 +165,11 @@
     height: 200px;
     width: 200px;
     position: relative;
-   
+    transform-style: preserve-3d;
+    transition: all 1s;
+    perspective: 1000px;
+    transform: rotateX(25px) rotateX(25px);
+    
 }
 .face{
     height: 100%;
@@ -173,15 +177,33 @@
     position: absolute;
     top: 20%;
     left: 20%;
-    transform-style: preserve-3d;
-    perspective: 1000px;
-    transition: all 1s;
-
-}
-.one{
-    background-color: chartreuse;
-}
-.one:hover{
-    transform: rotateX(40deg)   rotateY(40deg) ;
+    
+    
    
 }
+.one{
+    background-color: skyblue;
+    }
+    .two{
+    background-color: orange;
+    transform: rotateY(90deg) translateZ(-100px)
+    translateX(-100px);
+    }
+    .three{
+        background-color: palevioletred;
+        transform: rotateY(-90deg) translateZ(-100px) translateX(100px);
+        }
+    .four{
+            background-color: brown;
+            transform: rotateX(90deg) translateY(100px) translateZ(100px);
+            }
+            .five{
+                background-color: green;
+                transform: rotateX(90deg) translateZ(-100px) translateY(100px);
+                }
+                
+                /* .six{
+                    background-color: blueviolet;
+                    transform: translateZ(200px);
+                    } */
+            
