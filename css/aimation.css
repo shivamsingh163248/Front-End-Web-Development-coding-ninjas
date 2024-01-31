@@ -205,5 +205,37 @@
                 /* .six{
                     background-color: blueviolet;
                     transform: translateZ(200px);
-                    } */
+     
+     
+     
+     
+     
+                } */
+
+
+
+                /* check for the css varaivle */
+
+                :root{
+                    --heght-of-box:400px ; 
+                    --wedht-of-box:400px; 
+                }
+
+                .checkcssvar{
+
+                    background-color: yellowgreen;
+                    height: var(--heght-of-box);
+                    width: var(--wedht-of-box);
+
+                }
+                .cssvariable{
+                    background-color: wheat;
+                    height: var(--heght-of-box);
+                    width: var(--wedht-of-box);
+
+                }
+                #checkcss{
+                   
+                   position: absolute; 
+                }
             
