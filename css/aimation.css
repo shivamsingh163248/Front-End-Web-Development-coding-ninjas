@@ -1,3 +1,6 @@
+
+
+
 #section{
     height: 600px;
     width: 100%;
@@ -219,6 +222,7 @@
                 :root{
                     --heght-of-box:400px ; 
                     --wedht-of-box:400px; 
+                    --blue: red ; 
                 }
 
                 .checkcssvar{
@@ -238,4 +242,9 @@
                    
                    position: absolute; 
                 }
-            
+.checkvariable p{
+   color: var(--blue);
+}
+.checkvariable{
+   position: relative;
+ }
