@@ -1,0 +1,10 @@
+#textdocaration{
+    text-decoration: none;
+    color:green;
+     font-weight: 900;
+     line-height: 20px;
+     text-transform: capitalize;
+     text-align: center;
+     word-spacing: normal;
+     text-align: justify;    
+}
