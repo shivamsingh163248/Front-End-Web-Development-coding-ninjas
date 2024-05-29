@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Catalog</title>
+<style>
+  /* CSS for styling the product catalog */
+  .product {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    display: inline-block;
+  }
+  .product img {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
+</head>
+<body>
+
+<div id="catalog"></div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  // Define product data
+  const products = [
+    {
+      name: "Product 1",
+      price: "$19.99",
+      image: "product1.jpg",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      name: "Product 2",
+      price: "$29.99",
+      image: "product2.jpg",
+      description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      name: "Product 3",
+      price: "$39.99",
+      image: "product3.jpg",
+      description: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    }
+    // Add more products as needed
+  ];
+
+  // Generate HTML for each product and append to the catalog
+  const catalog = document.getElementById("catalog");
+  products.forEach(product => {
+    const productHTML = `
+      <div class="product">
+        <img src="${product.image}" alt="${product.name}">
+        <h3>${product.name}</h3>
+        <p>${product.price}</p>
+        <p>${product.description}</p>
+      </div>
+    `;
+    catalog.innerHTML += productHTML;
+  });
+});
+</script>
+
+</body>
+</html>
